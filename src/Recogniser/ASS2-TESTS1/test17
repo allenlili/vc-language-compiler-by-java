@@ -1,0 +1,7 @@
+int i;
+float f=1.0, f[100] = {1, 2};
+void f() { }
+void f() { }
+boolean b;
+void main() {  
+}

@@ -1,0 +1,8 @@
+int f() { return 1; }
+float g() { return 1.0; }
+int i;
+float x;
+int main() {
+x = i + x * f() / g();
+return 0;
+}

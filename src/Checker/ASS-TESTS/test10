@@ -1,0 +1,6 @@
+int main() {
+int i, j;
+i = j = 1;   // ok
+(i = j) = 1; // illegal
+return 0;
+}

@@ -1,0 +1,5 @@
+int f(int i) { return i; }
+int main() {
+  f(1, 2);
+  return 0;
+}

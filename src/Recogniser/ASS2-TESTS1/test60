@@ -1,0 +1,11 @@
+// find the greatest common divisor of two positive integers
+void main() {
+  int i = getInt(), j = getInt();
+  while (i != j) {
+    if (i < j)
+      j = j - i; 
+    if (i > j)
+      i = i - j; 
+  }
+  putIntLn(i);
+}

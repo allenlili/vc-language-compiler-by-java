@@ -1,0 +1,6 @@
+int f(int i[], float f[], float j[20]) { return 1; }
+int main() {
+  float g[10];
+  f(g, g, g);
+  return 0;
+}

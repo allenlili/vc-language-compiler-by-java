@@ -1,0 +1,5 @@
+int f(int i, boolean b, int j) { return j; }
+int main() {
+  f(1, true, 3, true);
+  return 0;
+}

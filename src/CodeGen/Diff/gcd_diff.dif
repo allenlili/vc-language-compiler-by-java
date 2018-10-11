@@ -1,0 +1,14 @@
+64c64
+< .limit stack 6
+---
+> .limit stack 5
+88c88
+< .limit stack 5
+---
+> .limit stack 3
+Enter an integer: You have entered 15.
+Enter an integer: You have entered 13.
+1
+Enter an integer: You have entered 6.
+Enter an integer: You have entered 2.
+2

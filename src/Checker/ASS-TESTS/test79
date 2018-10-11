@@ -1,0 +1,7 @@
+void f() { return ; }
+int main() {
+boolean b[] = {true};
+int i[] = { 1 };
+i[f()];
+return 0;
+}

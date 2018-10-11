@@ -1,0 +1,24 @@
+Program
+  DeclList
+    GloablVarDecl
+      ArrayType
+        int
+        IntExpr
+          10
+      a
+    DeclList
+      GloablVarDecl
+        ArrayType
+          int
+          EmptyExpr
+        b
+        =
+        InitExpr
+          ExprList
+            IntExpr
+              1
+            ExprList
+              IntExpr
+                2
+              EmptyExprList
+      EmptyDeclList

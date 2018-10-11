@@ -1,0 +1,9 @@
+int main() {
+  {
+     boolean b[] = {true};
+  }
+  {
+     int i[];
+  }
+  return 0;
+}

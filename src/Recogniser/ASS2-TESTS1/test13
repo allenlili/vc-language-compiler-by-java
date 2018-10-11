@@ -1,0 +1,7 @@
+void main() {  
+int i;
+float f, b[2] = { true, false };
+int i;
+float f;
+boolean b;
+}

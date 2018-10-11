@@ -1,0 +1,8 @@
+======= The VC compiler =======
+Kind=33 [<id>], spelling="nested", pos=1(15)..1(20)
+Kind=33 [<id>], spelling="comment", pos=1(22)..1(28)
+Kind=33 [<id>], spelling="not", pos=1(30)..1(32)
+Kind=33 [<id>], spelling="allowed", pos=1(34)..1(40)
+Kind=13 [*], spelling="*", pos=1(42)..1(42)
+Kind=14 [/], spelling="/", pos=1(43)..1(43)
+Kind=39 [$], spelling="$", pos=2(1)..2(1)

@@ -1,0 +1,6 @@
+Program
+  DeclList
+    GloablVarDecl
+      int
+      i
+    EmptyDeclList

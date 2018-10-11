@@ -1,0 +1,11 @@
+======= The VC compiler =======
+
+Pass 1: Lexical and syntactic Analysis
+Pass 2: Semantic Analysis
+Compilation was successful.
+int a[10];
+float b[10];
+int main() {
+a[1 + a[2 + a[3] ] ];
+return 0;
+}

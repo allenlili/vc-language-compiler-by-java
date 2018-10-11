@@ -1,0 +1,4 @@
+======= The VC compiler =======
+Kind=34 [<int-literal>], spelling="123", pos=1(1)..1(3)
+Kind=33 [<id>], spelling="abc", pos=1(4)..1(6)
+Kind=39 [$], spelling="$", pos=2(1)..2(1)

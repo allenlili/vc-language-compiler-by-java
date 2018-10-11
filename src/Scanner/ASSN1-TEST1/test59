@@ -1,0 +1,12 @@
+// find the greatest common divisor of two integers
+int gcd (int i, int j) {
+  if (j == 0)
+    return i;
+  else 
+    return gcd (j, i - j * (i/j));
+}
+void main() {
+  int i = getInt();
+  int j = getInt();
+  putIntLn(gcd(i,j));
+}

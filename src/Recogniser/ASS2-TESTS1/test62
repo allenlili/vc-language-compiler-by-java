@@ -1,0 +1,4 @@
+// interpreted as 1 - (- - 2)
+void main() {  
+ 1 --- 2;
+}

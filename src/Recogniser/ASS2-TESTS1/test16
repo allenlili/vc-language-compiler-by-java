@@ -1,0 +1,7 @@
+int i = 1;
+void main() {  
+  int i = 1;
+    { 
+      float i[10] = { 1 };
+    }
+}

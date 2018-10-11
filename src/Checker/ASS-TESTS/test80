@@ -1,0 +1,5 @@
+int main() {
+boolean b[] = {true};
+b[b[0]];
+return 0;
+}

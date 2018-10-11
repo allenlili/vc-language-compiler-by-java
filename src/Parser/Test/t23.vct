@@ -1,0 +1,24 @@
+Program
+  DeclList
+    FuncDecl
+      void
+      main
+      EmptyParaList
+      CompoundStmt
+        EmptyDeclList
+        StmtList
+          ExprStmt
+            UnaryExpr
+              +
+              UnaryExpr
+                -
+                UnaryExpr
+                  !
+                  UnaryExpr
+                    !
+                    UnaryExpr
+                      +
+                      FloatExpr
+                        1.2
+          EmptyStmtList
+    EmptyDeclList

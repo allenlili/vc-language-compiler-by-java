@@ -1,0 +1,18 @@
+Program
+  DeclList
+    FuncDecl
+      void
+      main
+      EmptyParaList
+      CompoundStmt
+        EmptyDeclList
+        StmtList
+          ExprStmt
+            AssignExpr
+              VarExpr
+                SimpleVar
+                  i
+              IntExpr
+                1
+          EmptyStmtList
+    EmptyDeclList

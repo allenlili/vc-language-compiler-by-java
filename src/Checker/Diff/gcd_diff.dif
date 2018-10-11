@@ -1,0 +1,54 @@
+1c1
+< .class public CodeGen/Test/gcd
+---
+> .class public gcd
+11c11
+< 	putstatic CodeGen/Test/gcd/i I
+---
+> 	putstatic gcd/i I
+13c13
+< 	putstatic CodeGen/Test/gcd/j I
+---
+> 	putstatic gcd/j I
+31c31
+< .var 0 is this LCodeGen/Test/gcd; from L0 to L1
+---
+> .var 0 is this Lgcd; from L0 to L1
+56c56
+< 	invokevirtual CodeGen/Test/gcd/gcd(II)I
+---
+> 	invokevirtual gcd/gcd(II)I
+64c64
+< .limit stack 6
+---
+> .limit stack 5
+69,70c69,70
+< .var 1 is vc$ LCodeGen/Test/gcd; from L0 to L1
+< 	new CodeGen/Test/gcd
+---
+> .var 1 is vc$ Lgcd; from L0 to L1
+> 	new gcd
+72c72
+< 	invokenonvirtual CodeGen/Test/gcd/<init>()V
+---
+> 	invokenonvirtual gcd/<init>()V
+75c75
+< 	putstatic CodeGen/Test/gcd/i I
+---
+> 	putstatic gcd/i I
+77c77
+< 	putstatic CodeGen/Test/gcd/j I
+---
+> 	putstatic gcd/j I
+79,81c79,81
+< 	getstatic CodeGen/Test/gcd/i I
+< 	getstatic CodeGen/Test/gcd/j I
+< 	invokevirtual CodeGen/Test/gcd/gcd(II)I
+---
+> 	getstatic gcd/i I
+> 	getstatic gcd/j I
+> 	invokevirtual gcd/gcd(II)I
+88c88
+< .limit stack 5
+---
+> .limit stack 3

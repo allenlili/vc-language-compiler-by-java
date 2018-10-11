@@ -1,0 +1,5 @@
+boolean f(boolean b) { return b; }
+int main() {
+  f(1.0);
+  return 0;
+}

@@ -1,0 +1,3 @@
+======= The VC compiler =======
+ERROR: 3(5)..3(7): ";" expected here
+Compilation was unsuccessful.

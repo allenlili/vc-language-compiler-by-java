@@ -1,0 +1,3 @@
+int f() {  }
+float g() {  }
+void h() {  }

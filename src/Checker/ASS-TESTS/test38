@@ -1,0 +1,5 @@
+int main() {
+  while (2 > 1)
+    continue;
+  return 0;
+}

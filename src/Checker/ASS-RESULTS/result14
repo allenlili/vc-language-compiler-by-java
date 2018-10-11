@@ -1,0 +1,11 @@
+======= The VC compiler =======
+
+Pass 1: Lexical and syntactic Analysis
+Pass 2: Semantic Analysis
+Compilation was successful.
+int f(int i, float f[], boolean b) { return 1; }
+int main() {
+  float a[10];
+  f(1, a, true);
+  return 0;
+}

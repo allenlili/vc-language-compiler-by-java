@@ -1,0 +1,5 @@
+void f(boolean i[]) {
+  float i;
+  return ;
+}
+int main() { return 0; }

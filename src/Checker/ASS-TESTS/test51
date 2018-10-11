@@ -1,0 +1,6 @@
+void f() {
+  return "string";
+}
+int main() {
+  return 0;
+}

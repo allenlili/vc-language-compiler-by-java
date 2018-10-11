@@ -1,0 +1,3 @@
+boolean main() {  
+  return !f(x,y);
+}

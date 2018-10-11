@@ -1,0 +1,3 @@
+void main() {  
+  return a = f(2,3);
+}

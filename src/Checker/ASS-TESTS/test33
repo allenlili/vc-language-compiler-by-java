@@ -1,0 +1,6 @@
+int f() { return 1; }
+int main() {
+  float g;
+  g = f();
+  return 0;
+}

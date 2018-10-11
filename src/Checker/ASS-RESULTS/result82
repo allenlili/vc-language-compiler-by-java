@@ -1,0 +1,13 @@
+======= The VC compiler =======
+
+Pass 1: Lexical and syntactic Analysis
+Pass 2: Semantic Analysis
+Compilation was successful.
+int a[10];
+float b[10];
+int f() { return 1; }
+float g(int x[]) { return 1.0; }
+int main() {
+f() / g(a) >= (a[1] + b[2]);
+return 0;
+}

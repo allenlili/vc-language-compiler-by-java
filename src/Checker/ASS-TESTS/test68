@@ -1,0 +1,10 @@
+int f() { return 1; }
+float g() { return 1.0; }
+boolean h() { return true; }
+int i;
+float x;
+boolean b[2];
+int main() {
+((i >= 1) !=  h()) && (f() > g())  || b[1];
+return 0;
+}

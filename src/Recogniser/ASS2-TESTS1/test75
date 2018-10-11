@@ -1,0 +1,7 @@
+void main() {  
+int x;
+float f;
+  while (x >= 200) {
+    x = 200;
+    f = 200.0;
+}

@@ -1,0 +1,7 @@
+// if statement
+void main() {  
+  if (i != 10) 
+     b = false;
+  else
+     f(1,2);
+}

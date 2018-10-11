@@ -1,0 +1,40 @@
+void test(int c, float f, boolean a) {
+
+int a,b,c,d,e,f;
+a = 1 + 2 + 3 + e;
+b = 2;
+printf(1,2);
+
+}
+
+int print(int c, int a[3]){
+	int a[10] = {1,2,3};
+	if (a == 1 || b == 3 && c <= (4 + 5) || !d){
+		printf(1,2);
+	} else {
+		if (1 == 1)
+			printf(1,2);
+			//printf(1,2);
+		else
+			a(1,2);
+	}
+	while (1 == 1) 
+		print();
+	while (1 == 1) {
+		print();
+		print();
+		continue;
+		break;
+	}
+	for (expression = 1 ; expression <= 2 ; expression = expression + 1 ) 
+		printf();
+	for (expression = 1 ; expression <= 2 ; expression = expression + 2 ) {
+		printf();
+		printf();			
+	}
+
+	return s;
+	return s;
+}
+
+

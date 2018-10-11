@@ -1,0 +1,6 @@
+void f() { return ; }
+int main() {
+  int i;
+  i = f();
+  return 0;
+}

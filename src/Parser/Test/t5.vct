@@ -1,0 +1,20 @@
+Program
+  DeclList
+    FuncDecl
+      void
+      f
+      EmptyParaList
+      EmptyCompStmt
+    DeclList
+      FuncDecl
+        int
+        g
+        EmptyParaList
+        EmptyCompStmt
+      DeclList
+        FuncDecl
+          float
+          h
+          EmptyParaList
+          EmptyCompStmt
+        EmptyDeclList

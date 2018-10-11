@@ -1,0 +1,3 @@
+======= The VC compiler =======
+ERROR: 1(1)..1(1): "f" wrong result type for a function
+Compilation was unsuccessful.

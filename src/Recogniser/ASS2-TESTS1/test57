@@ -1,0 +1,3 @@
+void main() {  
+  f(g(false), h(2.0, 1), 3);
+}

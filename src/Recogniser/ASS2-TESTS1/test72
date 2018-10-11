@@ -1,0 +1,5 @@
+void main() {  
+  if (100) 
+    int i;
+    i = 100;
+}

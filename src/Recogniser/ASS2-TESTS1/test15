@@ -1,0 +1,3 @@
+void main() {  
+int i = f() + h(true, f());
+}

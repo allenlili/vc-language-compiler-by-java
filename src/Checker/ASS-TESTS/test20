@@ -1,0 +1,5 @@
+int f(int i, float f, int j) { return i + j; }
+int main() {
+  f(1, 2.0, 3.0);
+  return 0;
+}

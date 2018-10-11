@@ -1,0 +1,24 @@
+5c5
+< ERROR: 3(5)..3(5): *18: array size missing: b
+---
+> ERROR: 3(5)..3(7): *18: array size missing: b
+7,9c7,9
+< ERROR: 9(15)..9(17): *13: wrong type for element in array initialiser: at position 1
+< ERROR: 9(20)..9(27): *13: wrong type for element in array initialiser: at position 2
+< ERROR: 9(5)..9(30): *16: excess elements in array initialiser: x
+---
+> ERROR: 9(15)..9(17): *13: wrong type for element in array initialiser
+> ERROR: 9(20)..9(27): *13: wrong type for element in array initialiser
+> ERROR: 9(12)..9(30): *16: excess elements in array initialiser: x
+11,15c11,15
+< ERROR: 14(1)..14(3): *12: attempt to use a scalar/function as an array
+< ERROR: 15(1)..15(1): *11: attempt to use an array/fuction as a scalar: x
+< ERROR: 15(1)..15(5): *9: incompatible type for this binary operator: +
+< ERROR: 16(1)..16(8): *17: array subscript is not an integer
+< ERROR: 18(3)..18(3): *27: wrong type for actual parameter: x
+---
+> ERROR: 14(1)..14(3): *12: attempt to use a scalar/function as an array: i 
+> ERROR: 15(1)..15(1): *11: attempt to use an array/function as a scalar: x
+> ERROR: 15(3)..15(3): *9: incompatible type for this binary operator: +
+> ERROR: 16(3)..16(8): *17: array subscript is not an integer: x
+> ERROR: 18(3)..18(3): *27: wrong type for actual parameter: [I

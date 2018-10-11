@@ -1,0 +1,13 @@
+void main() {  
+  int i;
+  i = 1;
+  putIntLn(i);
+  { int i;
+    i = 2;
+    putIntLn(i);
+    { int i;
+      i = 3;
+      putIntLn(i);
+    } 
+  } 
+}

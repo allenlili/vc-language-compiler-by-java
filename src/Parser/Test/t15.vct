@@ -1,0 +1,27 @@
+Program
+  DeclList
+    FuncDecl
+      void
+      main
+      EmptyParaList
+      CompoundStmt
+        EmptyDeclList
+        StmtList
+          ExprStmt
+            CallExpr
+              f
+              ArgList
+                Arg
+                  IntExpr
+                    1
+                ArgList
+                  Arg
+                    FloatExpr
+                      2.0
+                  ArgList
+                    Arg
+                      BooleanExpr
+                        false
+                    EmptyArgList
+          EmptyStmtList
+    EmptyDeclList
