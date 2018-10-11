@@ -22,7 +22,7 @@ install JDK8+
 ## Running the tests
 
 1. run xxx.sh for each part mentioned above 
-2. the result of each parts will generated in the coresponding folder
+2. the result of each parts will be generated in the coresponding folder
 
 ## Authors
 
